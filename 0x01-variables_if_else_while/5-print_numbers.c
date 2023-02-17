@@ -13,7 +13,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		printf(c);
+		putchar(c);
 		c++;
 	}
 
