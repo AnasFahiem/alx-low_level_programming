@@ -8,7 +8,7 @@ int main(void)
 {
 	char c = 'a';
 
-	while (c != 'q' && c != 'e')
+	while (c <= 'z' && c != 'q' && c != 'e')
 	{
 		putchar(c);
 		c++;
