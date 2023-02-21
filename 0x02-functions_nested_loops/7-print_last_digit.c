@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @n: integer for the function 
+ * @n:  integer for the function 
  * Return: integer value
  */
 
