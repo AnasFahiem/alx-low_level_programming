@@ -5,9 +5,8 @@
  * Return: 1 or 0
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	char c;
 
 	if (c >= 'A' && c <= 'Z')
 		return (1);
