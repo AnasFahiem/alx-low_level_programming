@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	while (c < 10)
 	{
-		_putchar(c);
+		_putchar('0' + c);
 		c++;
 
 	}
