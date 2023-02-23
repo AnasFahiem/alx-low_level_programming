@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -8,33 +7,34 @@
 
 int main(void)
 {
-	int c = 1;
 
-	while (c <= 100)
+	int i = 1;
+
+	while (i <= 100)
 	{
-		if (c % 2 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (c % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else if (c % 3 == 0 && c % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz");
+		}
 		else
 		{
-			printf("%i", c);
+			printf("%i", i);
 		}
 
-		if (c != 100)
+		if (i != 100)
 		{
 			putchar(' ');
 		}
 
-		c++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
