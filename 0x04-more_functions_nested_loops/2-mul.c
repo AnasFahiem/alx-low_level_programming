@@ -8,5 +8,5 @@
 
 int mul(int a, int b)
 {
-	printf("%lu\n", a * b);
+	return (a * b);
 }
