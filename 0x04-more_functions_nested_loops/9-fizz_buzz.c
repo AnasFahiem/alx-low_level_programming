@@ -5,9 +5,9 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
-	char c = 0;
+	int c = 1;
 
 	while (c <= 100)
 	{
@@ -27,8 +27,14 @@ int main()
 		{
 			printf("%i", c);
 		}
+
+		if (c != 100)
+		{
+			putchar(' ');
+		}
+
 		c++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
