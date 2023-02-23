@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: 0
+ * main - check the code for Holberton School students.
+ *
+ * Return: void.
  */
 
 int main(void)
