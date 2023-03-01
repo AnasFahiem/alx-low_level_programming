@@ -3,9 +3,9 @@
  * *string_toupper - capitalize a string
  * @str: pointer
  * Return: capitalzied string
- */
+*/
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i;
 
@@ -16,3 +16,4 @@ char *string_toupper(char *)
 	}
 	return (str);
 }
+
