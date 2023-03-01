@@ -6,7 +6,7 @@
  * Return: capitalzied string
 */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	char sep[] = ",\t;\n; .!?\"(){}";
 	int flag, i, ii;
@@ -41,3 +41,4 @@ char *cap_string(char *)
 	}
 	return (str);
 }
+
