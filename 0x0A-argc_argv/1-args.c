@@ -9,6 +9,7 @@
 
 int main(int argc)
 {
-	printf("%d", argc);
+	if (argc > 0)
+		printf("%d\n", argc);
 	return (0);
 }
